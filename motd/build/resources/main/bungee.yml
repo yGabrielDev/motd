@@ -1,0 +1,5 @@
+main: com.github.gabrielbruck.motd.Main
+name: Motd
+author: GabrielBruck
+description: A Motd for Minecraft Server.
+version: 1.0.0
