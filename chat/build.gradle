@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'java.skky.chat'
+version 'master'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    def lombok = "org.projectlombok:lombok:1.18.22";
+    compileOnly(lombok)
+    annotationProcessor(lombok)
+
+    compileOnly files('C:/Users/User/Documents/Zane/Minecraft/D-Rotate/spigot.jar')
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+compileJava.options.encoding('UTF-8')
+
+test {
+    useJUnitPlatform()
+}

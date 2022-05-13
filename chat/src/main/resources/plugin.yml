@@ -1,0 +1,6 @@
+name: chat
+main: java.skky.chat.Main
+version: 1.0
+author: Skky
+commands:
+  chat:
